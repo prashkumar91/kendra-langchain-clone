@@ -60,8 +60,7 @@ def build_chain():
 
   prompt_template = """
   <s>[INST] <<SYS>>
-  The following is a conversation between a human and an AI . 
-  The AI is a text summarization expert that looks through a set of different case studies and finds common themes. It then generalizes the common themes and presents a summarized text to the human.
+  The AI is a text summarization bot that looks through a set of different case studies between AWS and its partner. It is exhaustive and looks through all possible documents. It then identifies common themes. Finally, it generalizes and presents a summarized text to the question.
   If the AI could not find the answer to a question, it truthfully says it 
   does not know.
   {context}
