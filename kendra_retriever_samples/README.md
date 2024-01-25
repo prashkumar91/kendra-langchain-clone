@@ -10,7 +10,7 @@ git clone https://github.com/prashkumar91/kendra-langchain-clone.git
 
 Move to the repo dir
 ```bash
-cd amazon-kendra-langchain-![image](https://github.com/prashkumar91/kendra-langchain-clone/assets/157703533/3090a7be-d3a7-4b9d-ab49-496da51cd382)
+cd amazon-kendra-langchain
 extensions
 ```
 
