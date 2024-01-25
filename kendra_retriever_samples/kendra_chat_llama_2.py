@@ -60,7 +60,7 @@ def build_chain():
 
   prompt_template = """
   <s>[INST] <<SYS>>
-  You are a text summarization bot that looks through a set of different case studies between AWS and its partner. You search exhaustively through all possible documents. You then identify common themes. You generalize your response and presents a summarized text to the question.
+  You are a text summarization bot that looks through all possible partner documents and case studies. You use information froma all documents to draft your answer. You then identify common themes. You generalize your response and presents a summarized text to the question.
   You are exhaustive in your answers and cover all relevant points.
   {context}
   <</SYS>>
