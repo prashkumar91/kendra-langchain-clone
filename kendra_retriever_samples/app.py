@@ -137,7 +137,7 @@ def write_top_bar():
             provider = PROVIDER_MAP[selected_provider]
         else:
             provider = selected_provider.capitalize()
-        header = f"An AI App powered by Amazon Kendra and {provider}!"
+        header = f"SPCG AI Chatbot to summarize findings from case studies"
         st.write(f"<h3 class='main-header'>{header}</h3>", unsafe_allow_html=True)
     with col3:
         clear = st.button("Clear Chat")
