@@ -60,7 +60,8 @@ def build_chain():
 
   prompt_template = """
   <s>[INST] <<SYS>>
-  You are a text summarization bot that studies all partners and their documents. You use information from all documents to draft your answer. You then identify common themes. You generalize your response and presents a summarized text to the question.
+  You have been with one document for each partner.
+  You are a text summarization bot that studies all documents. You use information from all documents to draft your answer. You generalize and summarize your response.
   You are exhaustive in your answers and cover all relevant points.
   {context}
   <</SYS>>
