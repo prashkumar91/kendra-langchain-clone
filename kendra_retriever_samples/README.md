@@ -5,12 +5,13 @@ This repo provides a set of samples to work with [Langchain](https://github.com/
 
 Clone the repository
 ```bash
-git clone https://github.com/aws-samples/amazon-kendra-langchain-extensions.git
+git clone https://github.com/prashkumar91/kendra-langchain-clone.git
 ```
 
 Move to the repo dir
 ```bash
-cd amazon-kendra-langchain-extensions
+cd amazon-kendra-langchain-![image](https://github.com/prashkumar91/kendra-langchain-clone/assets/157703533/3090a7be-d3a7-4b9d-ab49-496da51cd382)
+extensions
 ```
 
 Move to the samples dir
