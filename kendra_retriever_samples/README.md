@@ -10,8 +10,7 @@ git clone https://github.com/prashkumar91/kendra-langchain-clone.git
 
 Move to the repo dir
 ```bash
-cd amazon-kendra-langchain
-extensions
+cd amazon-kendra-langchain-extensions
 ```
 
 Move to the samples dir
