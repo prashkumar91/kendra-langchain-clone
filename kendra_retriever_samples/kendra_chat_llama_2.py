@@ -50,7 +50,7 @@ def build_chain():
   llm=SagemakerEndpoint(
           endpoint_name=endpoint_name, 
           region_name=region, 
-          model_kwargs={"max_new_tokens": 1500, "top_p": 0.8,"temperature":0.6},
+          model_kwargs={"max_new_tokens": 1500, "top_p": 0.5,"temperature":0.9},
           endpoint_kwargs={"CustomAttributes":"accept_eula=true"},
           content_handler=content_handler,
 
@@ -60,7 +60,7 @@ def build_chain():
 
   prompt_template = """
   <s>[INST] <<SYS>>
-  You are a text summarization bot that looks through all possible partner documents and case studies. You use information froma all documents to draft your answer. You then identify common themes. You generalize your response and presents a summarized text to the question.
+  You are a text summarization bot that studies all partners and their documents. You use information from all documents to draft your answer. You then identify common themes. You generalize your response and presents a summarized text to the question.
   You are exhaustive in your answers and cover all relevant points.
   {context}
   <</SYS>>
