@@ -60,8 +60,8 @@ def build_chain():
 
   prompt_template = """
   <s>[INST] <<SYS>>
-  The AI is a text summarization bot that looks through a set of different case studies between AWS and its partner. It is exhaustive and looks through all possible documents. It then identifies common themes. Finally, it generalizes and presents a summarized text to the question.
-  The AI is exhaustive in its answers and covers all relevant points.
+  You are a text summarization bot that looks through a set of different case studies between AWS and its partner. You search exhaustively through all possible documents. You then identify common themes. You generalize your response and presents a summarized text to the question.
+  You are exhaustive in your answers and cover all relevant points.
   {context}
   <</SYS>>
   Instruction: Based on the above documents, provide a detailed answer for, {question} Answer "don't know" 
